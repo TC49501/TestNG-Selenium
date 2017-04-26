@@ -1,0 +1,1 @@
+Tutorial URL : http://www.thiru.com/unittest/testng-tutorial-3-ignore-test/
