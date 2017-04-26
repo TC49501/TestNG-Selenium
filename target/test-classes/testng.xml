@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll">
+
+    <test name="timeout">
+        <classes>
+            <class name="com.thiru.testng.examples.timeout.TestTimeout" />
+        </classes>
+    </test>
+
+    <test name="exception">
+        <classes>
+            <class name="com.thiru.testng.examples.exception.TestCheckedException" />
+            <class name="com.thiru.testng.examples.exception.TestRuntime" />
+        </classes>
+    </test>
+
+    <test name="loadtest">
+        <classes>
+            <class name="com.thiru.testng.examples.loadtest.TestMultipleThreads" >
+                <methods>
+                    <include name="testThreadPools" />
+                    <include name="loadTest" />
+                    <!--
+                        <exclude name="repeatThis" />
+                     -->
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

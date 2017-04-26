@@ -12,7 +12,8 @@
 		<jdk.version>1.8</jdk.version>
 		<testng.version>6.11</testng.version>
 		<selenium.version>2.53.0</selenium.version>
-		<httpclient.version>4.5.3</httpclient.version>
+		<httpclient.version>4.4.1</httpclient.version>
+		<!-- <firefox.version>44.0</firefox.version> -->
 	</properties>
 
 	<dependencies>

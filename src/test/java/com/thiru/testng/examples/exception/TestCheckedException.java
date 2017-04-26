@@ -20,7 +20,7 @@ public class TestCheckedException {
 
 		data = new Order();
 		data.setId(1);
-		data.setCreatedBy("thiru");
+		data.setCreatedBy("Thiru");
 	}
 
 	@Test(expectedExceptions = OrderSaveException.class)
@@ -28,10 +28,6 @@ public class TestCheckedException {
 		orderBo.save(null);
 	}
 
-	/*
-	 * Example : Multiple expected exceptions
-	 * Test is success if either of the exception is throws
-	 */
 	@Test(expectedExceptions = { OrderUpdateException.class, OrderNotFoundException.class })
 	public void throwIfOrderIsNotExists() throws OrderUpdateException, OrderNotFoundException {
 		orderBo.update(data);

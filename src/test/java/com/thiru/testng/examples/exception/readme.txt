@@ -1,1 +1,0 @@
-Tutorial URL : http://www.thiru.com/unittest/testng-tutorial-2-expected-exception-test/

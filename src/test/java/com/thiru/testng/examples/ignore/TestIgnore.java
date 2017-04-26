@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class TestIgnore {
 
-	@Test //defaulr enable=true
+	@Test //default enable=true
 	public void test1() {
 		Assert.assertEquals(true, true);
 	}
