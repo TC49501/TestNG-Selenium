@@ -17,6 +17,9 @@ Concurrent testing (ThreadPool)
 
 @BeforeMethod - Run before each test method.
 @AfterMethod - Run after each test method.
+
+TestNG documentation
+http://testng.org/doc/documentation-main.html#testng-xml
 ----------------------------------------------------------------------------------------------------------
 Selenium provides a record/playback tool for writing tests
 
